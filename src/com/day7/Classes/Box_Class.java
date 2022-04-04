@@ -24,7 +24,7 @@ public class Box_Class {
 		b.printAge();    // call method
 		b.printSalary(); //call method
 		
-		com.day7.AccessModifiers.Box_Class k = new com.day7.AccessModifiers.Box_Class();
+		com.day7.AccessModifiers.Box_Class3 k = new com.day7.AccessModifiers.Box_Class3();
 	}
 
 }

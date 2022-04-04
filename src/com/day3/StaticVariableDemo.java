@@ -7,6 +7,7 @@ public class StaticVariableDemo {
 		static String dept = "Finance"; // Static Variable
 		int age = 35; // instance variable
 		
+		static double bonus = 20;
 		
 		public static void main(String[] args) {
 			// TODO Auto-generated method stub
@@ -25,10 +26,12 @@ public class StaticVariableDemo {
 			
 			m1.salary = 6000;
 			m1.age = 36;
+			m1.bonus = 25;
 			
 			System.out.println("Dept:" + dept);
 			System.out.println("Salary:" + salary);
 			System.out.println("age: " + m1.age);
+			System.out.println("bonus " + bonus);
 		}
 			
 	}

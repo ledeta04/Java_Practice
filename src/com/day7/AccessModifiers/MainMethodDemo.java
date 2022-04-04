@@ -1,6 +1,5 @@
 package com.day7.AccessModifiers;
 
-import com.day7.accessModifiers.PrivateDemo;
 
 public class MainMethodDemo {
 
@@ -11,6 +10,7 @@ public class MainMethodDemo {
 		m1.Display();
 		
 		DefaultDemo m2 = new DefaultDemo();
+		m2.shwMethod();
 		
 
 	}
